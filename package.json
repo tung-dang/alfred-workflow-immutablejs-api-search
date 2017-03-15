@@ -12,8 +12,8 @@
     "alfred-workflow-nodejs-next": "^1.0.6"
   },
   "scripts": {
-    "export-wf": "git archive --format zip --output ./exported-workflow-file/YarnApiSearch.alfredworkflow master",
-    "push": "yarn run export-wf && git add --all && git commit -m \"export workflow to file\" && git push --follow-tags"
+    "export-wf": "git archive --format zip --output ./exported-workflow-file/ImmutableJSApiSearch.alfredworkflow master",
+    "release": "./src/release.sh"
   },
   "contributors": [
     {
