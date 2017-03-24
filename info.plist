@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.atlassian.tungdang</string>
+	<string>com.tungdang.immutablejs</string>
 	<key>connections</key>
 	<dict>
 		<key>78DFBB49-56D4-40B6-9DE3-62EF266A19C7</key>
@@ -32,6 +32,31 @@
 	<string>imjs</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<true/>
+				<key>escaping</key>
+				<integer>4</integer>
+				<key>script</key>
+				<string>## Choose a link and then open it
+
+/usr/local/node . "open_link" "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>78DFBB49-56D4-40B6-9DE3-62EF266A19C7</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -72,31 +97,6 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>B06EFA00-BD47-48B9-BF13-A73052018A79</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<true/>
-				<key>escaping</key>
-				<integer>4</integer>
-				<key>script</key>
-				<string>## Choose a link and then open it
-
-/usr/local/node . "open_link" "{query}"</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>78DFBB49-56D4-40B6-9DE3-62EF266A19C7</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
