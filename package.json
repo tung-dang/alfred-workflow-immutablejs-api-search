@@ -13,7 +13,7 @@
   },
   "scripts": {
     "export-wf": "git archive --format zip --output ./exported-workflow-file/ImmutableJSApiSearch.alfredworkflow master",
-    "release": "./src/release.sh"
+    "export-push": "./src/release.sh"
   },
   "contributors": [
     {
